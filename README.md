@@ -6,7 +6,8 @@ This project is a personal website created to showcase my skills and to serve as
 
 ### Future features
 * Blog utilizing Jekyll
-* more...
+* A page containing a map highlighting the places I have visited
+* And more...
 
 ## Link
 Website: https://marklesterbasco.com/
