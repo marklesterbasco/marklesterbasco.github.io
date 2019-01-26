@@ -7,7 +7,7 @@ This project is a personal website created to showcase my skills and to serve as
 ### Future features
 * Blog utilizing Jekyll
 * A page containing a map highlighting the places I have visited
-* And more...
+* more...
 
 ## Link
 Website: https://marklesterbasco.com/
@@ -15,3 +15,5 @@ Website: https://marklesterbasco.com/
 LinkedIn: https://www.linkedin.com/in/marklesterbasco/
 
 Author: Mark A. Basco
+
+Contact: mail@marklesterbasco.com
