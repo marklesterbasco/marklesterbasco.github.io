@@ -657,41 +657,40 @@ li.youtube {
 
   #intro {
     background-image: none;
-    }
+  }
  .portrait2 {
     display: inline-block;
-    }
+  }
   
   #cover {
     min-height: 300px;
     background-image: url("../images/mb_hero.jpg");
-    background-repeat: no-repeat;
   }
     
  #skills {
   background-image: url("../images/mb_skills.jpg");
-  background-repeat: no-repeat;
-}
+  }
 
 #work {
   background-image: url("../images/mb_work.jpg");
-  background-repeat: no-repeat;
-}
+  }
 
 #bio {
   background-image: url("../images/mb_bio.jpg");
-  background-repeat: no-repeat;
-}
+  }
 
 #social {
   background-image: url("../images/mb_social.jpg");
-  background-repeat: no-repeat;
-}
+  }
 
 #contact {
   background-image: url("../images/mb_contact.jpg");
+  }
+
+  .title-section {
   background-repeat: no-repeat;
-}
+  background-size: auto;
+  }
     
   #skills-content .overview li ul {
     min-height: 0;
