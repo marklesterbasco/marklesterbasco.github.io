@@ -132,13 +132,6 @@ main a:hover, main a:focus, footer a:hover, footer a:focus {
   display: none;
 }
 
-/*==================================================
- Main Contents
-=====================================================*/
-main {
-  background-color: #fff;
-}
-
 
 /*==================================================
 Main Footer
@@ -687,12 +680,6 @@ li.youtube {
   background-image: url("../images/mb_contact.jpg");
   }
 
-  .title-section {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: scroll;
-  }
-    
   #skills-content .overview li ul {
     min-height: 0;
   }
