@@ -162,7 +162,7 @@ Main Footer
 
 .title-section {
   text-align: center;
-  background-size: auto; /* or cover */
+  background-size: cover;
   background-attachment: fixed;
   background-position: center center;
 }
@@ -689,7 +689,8 @@ li.youtube {
 
   .title-section {
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
+  background-attachment: scroll;
   }
     
   #skills-content .overview li ul {
