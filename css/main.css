@@ -690,6 +690,8 @@ li.youtube {
   .title-section {
   background-repeat: no-repeat;
   background-size: auto;
+  width: 100%;
+  height: 100%;
   }
     
   #skills-content .overview li ul {
