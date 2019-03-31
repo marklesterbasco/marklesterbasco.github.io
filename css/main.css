@@ -162,7 +162,7 @@ Main Footer
 
 .title-section {
   text-align: center;
-  background-size: cover;
+  background-size: auto; /* or cover */
   background-attachment: fixed;
   background-position: center center;
 }
@@ -186,8 +186,8 @@ Main Footer
   background-color: #2C4B65;
   background-image: url("../images/portrait.jpg");
   background-size: 32%;
-  background-repeat: no-repeat;
   color: #fff;
+  background-repeat: no-repeat;
 }
 
 .portrait2 {
@@ -665,26 +665,32 @@ li.youtube {
   #cover {
     min-height: 300px;
     background-image: url("../images/mb_hero.jpg");
+    background-repeat: no-repeat;
   }
     
  #skills {
   background-image: url("../images/mb_skills.jpg");
+  background-repeat: no-repeat;
 }
 
 #work {
   background-image: url("../images/mb_work.jpg");
+  background-repeat: no-repeat;
 }
 
 #bio {
   background-image: url("../images/mb_bio.jpg");
+  background-repeat: no-repeat;
 }
 
 #social {
   background-image: url("../images/mb_social.jpg");
+  background-repeat: no-repeat;
 }
 
 #contact {
   background-image: url("../images/mb_contact.jpg");
+  background-repeat: no-repeat;
 }
     
   #skills-content .overview li ul {
