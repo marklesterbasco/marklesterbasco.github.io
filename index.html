@@ -45,7 +45,6 @@
     <link href="css/main.css" rel="stylesheet">
 
     <script src="js/modernizr.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwk0cR3mhWZmMGIUtxPofvxDuQfoaC5Ds&callback=initMap"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -315,7 +314,9 @@
         <div class="col-sm-10 col-sm-offset-1" data-sr='move 0 opacity 0'>      
             <h2>Where I have been... so far</h2>
             <p>On your computer, click map to activate the control. On your mobile device, tap the map to activate. You can zoom in and out or you can move the map using your mouse or your finger.</p>
-            <div id="googft-mapCanvas"></div>
+            <div id="mapbox">
+              <iframe src="https://api.mapbox.com/styles/v1/marklesterbasco/cky8twoqk4en914o9oik0st8u.html?title=false&access_token=pk.eyJ1IjoibWFya2xlc3RlcmJhc2NvIiwiYSI6ImNreThzbzF5YjFmODYycHFjeTF5bTJra3kifQ.xxbIl106eZlptV2edazFsw&zoomwheel=false#2.24/7.57/94.35" title="Countries I've visited"></iframe>
+            </div>
         </div>
         </section>
         
@@ -382,7 +383,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/parallax.js"></script>
-    <script src="js/maps.js"></script>
     <script src="js/scrollReveal.min.js"></script>
     <script>
           (function($) {
