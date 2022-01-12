@@ -662,7 +662,7 @@ li.youtube {
 
   
   #cover:after {
-    min-height: 300px;
+    min-height: 250px;
     background-image: url("../images/mb_hero.jpg");
     background-attachment: scroll;
     background-position: center center;
