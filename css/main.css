@@ -674,14 +674,14 @@ li.youtube {
   -moz-background-size: cover;
   -o-background-size: cover; 
 }
-@supports ( -webkit-touch-callout : none) {
-.selector {
-background-attachment:scroll
+@supports ( -webkit-touch-callout: none) {
+.title-section {
+background-attachment:scroll;
 }
 }
 
-@supports not ( -webkit-touch-callout : none) {
-.selector {
+@supports not ( -webkit-touch-callout: none) {
+.title-section {
 background-attachment: fixed;
 }
 }
