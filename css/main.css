@@ -659,12 +659,32 @@ li.youtube {
  .portrait2 {
     display: inline-block;
   }
+
   
   #cover {
     min-height: 300px;
     background-image: url("../images/mb_hero.jpg");
   }
-    
+  .title-section:after {
+  text-align: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+}
+@supports ( -webkit-touch-callout: none) {
+.title-section {
+background-attachment:scroll;
+}
+}
+
+@supports not ( -webkit-touch-callout: none) {
+.title-section {
+background-attachment: fixed;
+}
+}
  #skills {
   background-image: url("../images/mb_skills.jpg");
   }
