@@ -674,6 +674,17 @@ li.youtube {
   -moz-background-size: cover;
   -o-background-size: cover; 
 }
+@supports ( -webkit-touch-callout : none) {
+.selector {
+background-attachment:scroll
+}
+}
+
+@supports not ( -webkit-touch-callout : none) {
+.selector {
+background-attachment: fixed;
+}
+}
  #skills {
   background-image: url("../images/mb_skills.jpg");
   }
