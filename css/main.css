@@ -675,13 +675,13 @@ li.youtube {
   -o-background-size: cover; 
 }
 @supports ( -webkit-touch-callout: none) {
-.title-section {
+.title-section, #cover {
 background-attachment:scroll;
 }
 }
 
 @supports not ( -webkit-touch-callout: none) {
-.title-section {
+.title-section, #cover {
 background-attachment: fixed;
 }
 }
