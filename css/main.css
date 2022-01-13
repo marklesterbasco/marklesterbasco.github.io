@@ -610,6 +610,23 @@ li.youtube {
   background-image: url("../images/youtube.png");
   background-size: 90px 90px;
 }
+
+/* curator.io */
+div.crt-grid-post {
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+div.crt-filter {
+  display:  none;
+}
+
+div#curator-feed-default-feed-layout a.crt-logo {
+  font-size: .6em;
+  color: #FFFFFF;
+}
+
 /* Contact
 =====================================================*/
 #contact {
