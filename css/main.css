@@ -513,7 +513,7 @@ margin-bottom: 25px;
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #bio-content .video-container iframe {
@@ -582,8 +582,8 @@ li.linkedin {
   background-image: url("../images/linkedin.png");
   background-size: 90px 90px;
 }
-li.skype {
-  background-image: url("../images/skype.png");
+li.edrawmind {
+  background-image: url("../images/edrawmind.png");
   background-size: 90px 90px;
 }
 li.twitter {
